@@ -23,8 +23,8 @@ q4(Class):- findall(A,fact(A),Z), classify(Z,Class), retractall(fact(_)).
 menu1:-
      write(
 "
-                  Tem duvidas se devera escolher um alojamento com restaurante onde possa fazer as suas refeicoes ou explorar restaurantes locais?
-                  Temos o sistema perfeito para si! Com base nas suas respostas, seremos a ajuda que necessita!
+          Tem duvidas se devera escolher um alojamento com restaurante onde possa fazer as suas refeicoes ou explorar restaurantes locais?
+          Temos o sistema perfeito para si! Com base nas suas respostas, seremos a ajuda que necessita!
 
 
 "
@@ -33,16 +33,12 @@ menu1:-
     write(
 "____________________________________________________________________________________________________
 
-                    Qual a sua idade?
+          Qual a sua idade?
 
-                    1- 18 a 25
-                    2- 26 a 33
-                    3- 34 a 45
-                    4- Maior de 45
-
-                    0- Sair
-
-
+          1- 18 a 25
+          2- 26 a 33
+          3- 34 a 45
+          4- Maior de 45
 ___________________________________________________________________________________________________"
 ),nl,nl,
     read(Idade),
@@ -56,13 +52,10 @@ ________________________________________________________________________________
     write(
 "____________________________________________________________________________________________________
 
-                    Em ambiente de ferias, gosta de ser uma pessoa ativa?
+       Em ambiente de ferias, gosta de ser uma pessoa ativa?
 
-                    1- Sim
-                    2- Nao
-
-                    0- Sair
-
+       1- Sim
+       2- Nao
 
 ____________________________________________________________________________________________________"
 ),nl,nl,
@@ -74,13 +67,10 @@ ________________________________________________________________________________
     write(
 "____________________________________________________________________________________________________
 
-                    Gostaria de conhecer mais sobre a cultura do seu destino de ferias?
+        Gostaria de conhecer mais sobre a cultura do seu destino de ferias?
 
-                    1- Sim
-                    2- Nao
-
-                    0- Sair
-
+        1- Sim
+        2- Nao
 
 ____________________________________________________________________________________________________"
 ),nl,nl,
@@ -92,13 +82,10 @@ ________________________________________________________________________________
     write(
 "____________________________________________________________________________________________________
 
-                    No local em que ficasse alojado, gostaria que lhe fossem proporcionados momentos de lazer (piscina ou spa)?
+      No local em que ficasse alojado, gostaria que lhe fossem proporcionados momentos de lazer (piscina ou spa)?
 
-                    1- Sim
-                    2- Nao
-
-                    0- Sair
-
+      1- Sim
+      2- Nao
 
 ____________________________________________________________________________________________________"
 ),nl,nl,
